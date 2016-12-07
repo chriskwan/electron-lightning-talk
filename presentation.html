@@ -58,14 +58,53 @@
 
                 <section>
                   <h1>package.json</h1>
+                  <pre>
+                    <code>
+{
+  "name": "electron-bare-bones",
+  "version": "0.1.0",
+  "main": "index.js"
+}
+                    </code>
+                  </pre>
                 </section>
 
                 <section>
                   <h1>Main Process (index.js)</h1>
+                  <pre>
+                    <code>
+const electron = require('electron')
+
+let win // global ref so window is not closed with JS is garbage collected
+
+electron.app.on('ready', () => {
+  win = new electron.BrowserWindow({ width: 800, height: 600 })
+  win.loadURL(`file://${__dirname}/index.html`)
+})
+                    </code>
+                  </pre>
                 </section>
 
                 <section>
                   <h1>Renderer Process (index.html)</h1>
+                  <pre>
+                    <code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Electron Bare Bones App&lt;/title&gt;
+  &lt;/head&gt;
+
+  &lt;body&gt;
+    &lt;h1&gt;Hello World&lt;/h1&gt;
+
+    &lt;script&gt;
+      alert('Hi!')
+    &lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+                    </code>
+                  </pre>
                 </section>
 
                 <section>
