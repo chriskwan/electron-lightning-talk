@@ -1,6 +1,8 @@
 # electron-lightning-talk
 Intro to [Electron](http://electron.atom.io) Lightning Talk
 
-[Barebones App](http://github.com/chriskwan/electron-bare-bones)
+[Presentation](http://chriskwan.github.io/electron-lightning-talk)
 
-[Demo App ("Better Browser")](http://github.com/chriskwan/electron-demo-app)
+Demos:
+* [Barebones App](http://github.com/chriskwan/electron-bare-bones)
+* ["Better Browser" App](http://github.com/chriskwan/electron-demo-app)
