@@ -18,34 +18,32 @@
                 </section>
 
                 <section>
-                  <h1>Raise your hand if you've used...</h1>
+                  <h2>Raise your hand if you have used...</h2>
                   <img src="img/vscode.png" class="fragment" />
                   <img src="img/atom.png" class="fragment" />
                   <img src="img/slack.png" class="fragment" />
                 </section>
 
                 <section>
-                  <h1>You've used</h1>
+                  <h2>You've used</h2>
                   <img src="img/electron-banner.svg"/>
                 </section>
 
                 <section>
-                  <h1>What is Electron?</h1>
+                  <h2>What is Electron?</h2>
                 </section>
 
                 <section>
-                  <h1>Why Desktop apps?</h1>
+                  <h2>Why Desktop apps?</h2>
                 </section>
 
                 <section>
-                  <h1>Why Electron?</h1>
+                  <h2>Why Electron?</h2>
                 </section>
 
                 <section>
-                  <h1>Anatomy of an Electron app</h1>
-                  <p>
-                    Just 3 required files:
-                  </p>
+                  <h2>Anatomy of an Electron app</h2>
+                  <h3>Just 3 required files:</h3>
                   <ol>
                     <li class="fragment">
                       package.json
@@ -60,9 +58,9 @@
                 </section>
 
                 <section>
-                  <h1>package.json</h1>
+                  <h2>package.json</h2>
                   <pre>
-                    <code>
+                    <code class="json">
 {
   "name": "electron-bare-bones",
   "version": "0.1.0",
@@ -73,9 +71,9 @@
                 </section>
 
                 <section>
-                  <h1>Main Process (index.js)</h1>
+                  <h2>Main Process (index.js)</h2>
                   <pre>
-                    <code>
+                    <code class="javascript">
 const electron = require('electron')
 
 let win // global ref so window is not closed with JS is garbage collected
@@ -89,9 +87,9 @@ electron.app.on('ready', () => {
                 </section>
 
                 <section>
-                  <h1>Renderer Process (index.html)</h1>
+                  <h2>Renderer Process (index.html)</h2>
                   <pre>
-                    <code>
+                    <code class="html">
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
   &lt;head&gt;
@@ -111,11 +109,11 @@ electron.app.on('ready', () => {
                 </section>
 
                 <section>
-                  <h1>Demos</h1>
+                  <h2>Demos</h2>
                 </section>
 
                 <section>
-                  <h1>Learn More</h1>
+                  <h2>Learn More</h2>
                   <ul>
                     <li>
                       Electron website (docs and tutorials):
