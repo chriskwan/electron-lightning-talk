@@ -21,8 +21,18 @@
   vertical-align: middle;
 }
 
+.reveal section img.social-media-icon.social-media-icon-small
+{
+  width: 25px;
+}
+
 span.social-media-handle
 {
   font-size: 50px;
   vertical-align: middle;
+}
+
+span.social-media-handle.social-media-handle-small
+{
+  font-size: 25px;
 }
