@@ -36,3 +36,11 @@ span.social-media-handle.social-media-handle-small
 {
   font-size: 25px;
 }
+
+.reveal section .app-icons img
+{
+  width: 200px;
+  margin-top: 50px;
+  margin-right: 50px;
+  vertical-align: middle;
+}
