@@ -5,6 +5,9 @@
 
         <!-- Theme used for syntax highlighting of code -->
         <link rel="stylesheet" href="lib/css/zenburn.css">
+
+        <!-- Style overrides for this presentation -->
+        <link rel="stylesheet" href="css/presentation.css">
     </head>
     <body>
         <div class="reveal">
@@ -12,13 +15,15 @@
                 <section>
                   <h1>Intro to Electron</h1>
                   <img src="img/electron-logo-dark.png" />
-                  <img src="img/Twitter_Social_Icon_Circle_White.png"/>
-                  <img src="img/GitHub-Mark-Light-120px-plus.png"/>
-                  @chriskwan
+                  <div class="social-media">
+                    <img src="img/Twitter_Social_Icon_Circle_White.png" class="social-media-icon"/>
+                    <img src="img/GitHub-Mark-Light-120px-plus.png" class="social-media-icon"/>
+                    <span class="social-media-handle">@chriskwan</span>
+                  </div>
                 </section>
 
                 <section>
-                  <h2>Raise your hand if you have used...</h2>
+                  <h2>Raise your hand if you use...</h2>
                   <img src="img/vscode.png" class="fragment" />
                   <img src="img/atom.png" class="fragment" />
                   <img src="img/slack.png" class="fragment" />
@@ -43,16 +48,15 @@
 
                 <section>
                   <h2>Anatomy of an Electron app</h2>
-                  <h3>Just 3 required files:</h3>
                   <ol>
                     <li class="fragment">
                       package.json
                     </li>
                     <li class="fragment">
-                      Main Process (index.js)
+                      index.js (Main Process)
                     </li>
                     <li class="fragment">
-                      Renderer Process (index.html)
+                      index.html (Renderer Process)
                     </li>
                   </ol>
                 </section>
@@ -71,7 +75,7 @@
                 </section>
 
                 <section>
-                  <h2>Main Process (index.js)</h2>
+                  <h2>index.js (Main Process)</h2>
                   <pre>
                     <code class="javascript">
 const electron = require('electron')
@@ -87,7 +91,7 @@ electron.app.on('ready', () => {
                 </section>
 
                 <section>
-                  <h2>Renderer Process (index.html)</h2>
+                  <h2>index.html (Renderer Process)</h2>
                   <pre>
                     <code class="html">
 &lt;!DOCTYPE html&gt;
@@ -109,7 +113,7 @@ electron.app.on('ready', () => {
                 </section>
 
                 <section>
-                  <h2>Demos</h2>
+                  <h2>Demo</h2>
                 </section>
 
                 <section>

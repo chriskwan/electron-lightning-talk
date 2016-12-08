@@ -1,0 +1,28 @@
+.reveal
+{
+  background-color: #2F3242;
+}
+
+.reveal pre
+{
+  box-shadow: none;
+}
+
+.reveal section img
+{
+  border-width: 0px;
+  background: none;
+  box-shadow: none;
+}
+
+.reveal section img.social-media-icon
+{
+  width: 50px;
+  vertical-align: middle;
+}
+
+span.social-media-handle
+{
+  font-size: 50px;
+  vertical-align: middle;
+}
