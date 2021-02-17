@@ -1,4 +1,4 @@
-# ⚡electron-lightning-talk
+# electron-lightning-talk
 Intro to [Electron](http://electron.atom.io) [Lightning Talk](https://en.wikipedia.org/wiki/Lightning_talk)
 
 Presentation: http://chriskwan.github.io/electron-lightning-talk
